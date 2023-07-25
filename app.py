@@ -75,7 +75,7 @@ def index():
             logging.info("log my final result {}".format(reviews))
 
             
-            client = pymongo.MongoClient("mongodb+srv://sharmavaishnavi1403:Webscrapper1403@webscrapper.lntgeha.mongodb.net/?retryWrites=true&w=majority")
+            client = pymongo.MongoClient("mongodb+srv://sharmavaishnavi1403:<Password>@webscrapper.lntgeha.mongodb.net/?retryWrites=true&w=majority")
             db =client['scrapper_Project']
             coll_pw_eng = db['scraper_Flipkart']
             coll_pw_eng.insert_many(reviews)
