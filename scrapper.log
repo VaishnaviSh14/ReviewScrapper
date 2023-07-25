@@ -1,0 +1,17 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.34:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 15:53:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 15:53:27] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 15:53:27] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 15:53:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'tv', 'Name': 'Sumon Pramanick', 'Rating': '5', 'CommentHead': 'Perfect product!', 'Comment': 'Best choice . Awesome purchase . Same day installation by flipkart . Thank you flipkart'}, {'Product': 'tv', 'Name': 'Sureswar Pradhan', 'Rating': '5', 'CommentHead': 'Excellent', 'Comment': "Very nice tv in this price....don't hesitate.... just go 4 it"}, {'Product': 'tv', 'Name': 'Nilanchal sahu', 'Rating': '4', 'CommentHead': 'Good quality product', 'Comment': 'Nice product'}, {'Product': 'tv', 'Name': 'Hareesh Hareesh', 'Rating': '5', 'CommentHead': 'Wonderful', 'Comment': 'Marq led tv super. Quality super👌'}, {'Product': 'tv', 'Name': 'Flipkart Customer', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Worth of money.... thanks to flipkart....'}, {'Product': 'tv', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Value-for-money', 'Comment': 'Super amazing picture quality and Cristal clear picture quality  I am buy a quality product I like it'}, {'Product': 'tv', 'Name': 'Vijay Chaure', 'Rating': '4', 'CommentHead': 'Worth the money', 'Comment': 'Value for moneyPicture quality niceSound quality is ok'}, {'Product': 'tv', 'Name': 'Varnashree  S V', 'Rating': '5', 'CommentHead': 'Simply awesome', 'Comment': 'Super. Nice fast delivery my family very happy thank you Flipkart marq tv very good product'}, {'Product': 'tv', 'Name': 'Randhir Singh', 'Rating': '5', 'CommentHead': 'Terrific', 'Comment': 'Excellent product and must buy television for everyone.Do not waste a huge amount of money on expensive LED television when you have the option to buy the same thing from marq. After using this television for almost a week i find that picture quality and sound quality is excellent. Nicely packed delivery was provided by flipkart.Thanks flipkart and the vendor for providing the product  at such an affordable price.'}, {'Product': 'tv', 'Name': 'Flipkart Customer', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'Awesome product, Thank you flipkart but, stand not so better.'}, {'Product': 'tv', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'Awesome product, Thank you flipkart but, stand not so better.'}]
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 15:53:32] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 15:53:32] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [25/Jul/2023 15:53:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
